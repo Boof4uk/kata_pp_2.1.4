@@ -20,7 +20,6 @@ public class AnimalsCage {
         System.out.println("Say:");
         System.out.println(animal.toString());
         System.out.println("At:");
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         System.out.println(timer.getTime());
         System.out.println("________________________");
     }
